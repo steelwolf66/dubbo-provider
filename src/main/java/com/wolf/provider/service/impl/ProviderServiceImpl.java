@@ -12,6 +12,6 @@ public class ProviderServiceImpl implements ProviderService {
     private static Logger logger = LoggerFactory.getLogger(ProviderServiceImpl.class);
     @Override
     public void testDubbo() {
-        logger.info("dubbo provider");
+        logger.info("dubbo provider has bean invoked");
     }
 }
